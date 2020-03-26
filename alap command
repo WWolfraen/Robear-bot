@@ -1,0 +1,18 @@
+const { Utils } = require("erela.js")
+const { MessageEmbed } = require("discord.js")
+const { stripIndents } = require("common-tags")
+
+
+module.exports = {
+    config: {
+        name: "",
+        aliases: [""],
+        description: "",
+        category: "",
+        usage: ""
+    },
+
+    run: async (bot, message, args) =>{
+
+    }
+}
